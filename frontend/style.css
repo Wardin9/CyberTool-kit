@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #111827, #2563eb);
+  color: white;
+  min-height: 90vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+}
+
+nav h2 {
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 120px 8%;
+  max-width: 850px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+main {
+  padding: 50px 8%;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  color: #1d4ed8;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.result {
+  margin-top: 18px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #eef2ff;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.question {
+  margin-top: 20px;
+  padding: 18px;
+  background: #f8fafc;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #111827;
+  color: white;
+}
+
+.weak {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.strong {
+  background: #dcfce7;
+  color: #166534;
+}
